@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=2">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><span class="icon">🔍</span> Phishing Detector</h1>
+            <p class="subtitle">Verify suspicious links before clicking</p>
+        </div>
+        
+        <form method="post" class="url-form">
+            <div class="input-group">
+                <input type="text" name="url" placeholder="Enter URL to analyze..." required>
+                <button type="submit">
+                    <span class="btn-text">Analyze</span>
+                    <span class="btn-icon">→</span>
+                </button>
+            </div>
+        </form>
+
+        {% if result %}
+        <div class="result {{ 'safe' if '✅' in result else 'danger' }}">
+            <div class="result-icon">
+                {% if '✅' in result %}✓{% else %}⚠️{% endif %}
+            </div>
+            <div class="result-text">{{ result }}</div>
+        </div>
+        {% endif %}
+        
+        <div class="tips">
+            <h3>Safety Tips:</h3>
+            <ul>
+                <li>Check for HTTPS in the URL</li>
+                <li>Look for misspellings in domain names</li>
+                <li>Avoid clicking links in suspicious emails</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
