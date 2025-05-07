@@ -6,7 +6,7 @@
 - **Shahbaz Ali** (2401830007)
 - **Harshit** (2401830008)
 - **Himanshu** (Team Member)
-- **Kartik Yadav** (Team Member)
+- **Kartik Yadav** (2401720011)
 
 ---
 
