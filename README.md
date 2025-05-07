@@ -30,36 +30,11 @@ Phishing Detector is a web-based tool that helps users analyze URLs and determin
 
 ---
 
-## 🖼 Screenshots/Diagrams
-_Add screenshots here_
-+-----------------------+
-|  User (Browser)      |
-|  - Enters URL        |
-|  - Submits Form      |
-+----------+------------+
-           |
-           v
-+-----------------------+
-|  Flask App (index()) |
-|  - POST Request       |
-|  - Extract URL        |
-|  - Parse Domain       |
-|  - Check Trust List   |
-|  - Generate Result    |
-+----------+------------+
-           |
-           v
-+------------------------+
-|  HTML Template         |
-|  - Renders Result      |
-|  - Shows ✓ or ⚠️       |
-|  - Highlights Safe/Danger |
-+----------+------------+
-           |
-           v
-+------------------------+
-|  User Sees Result      |
-|  - ✅ Legitimate URL   |
-|  - ⚠️ Suspicious URL   |
-|  - Safety Tips Shown   |
-+------------------------+
+## 🖼 Screenshots/
+
+
+
+## Flow Diagram
+![DIAGRAM](Flow_Diagram.png)
+
+
