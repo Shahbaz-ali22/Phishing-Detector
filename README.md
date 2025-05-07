@@ -31,10 +31,12 @@ Phishing Detector is a web-based tool that helps users analyze URLs and determin
 ---
 
 ## 🖼 Screenshots/
-
+![take1](screenshots/1.png)
+![take2](screenshots/2.png)
+![take3](screenshots/3.png)
 
 
 ## Flow Diagram
-![DIAGRAM](Flow_Diagram.png)
+![DIAGRAM](screenshots/Flow_Diagram.png)
 
 
