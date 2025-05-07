@@ -40,3 +40,16 @@ Phishing Detector is a web-based tool that helps users analyze URLs and determin
 ![DIAGRAM](screenshots/Flow_Diagram.png)
 
 
+---
+
+## 📽️ Demo Video
+
+Watch the working demo of the project here:  
+🔗 [Click to Watch Demo](https://youtu.be/gctmZV7Em1U?si=rK-cL0rOQGV2tdmV)
+
+---
+
+## 📊 Project Presentation
+
+Download or view the presentation slides:  
+🔗 [View PPT](https://1drv.ms/b/c/d76771bab2efba1b/Ec_y0eZzks9Lk5RWLOn0oa4BQmgR8CZZuy6Zj8Y0L96rBQ?e=1QbWXc)
